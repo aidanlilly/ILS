@@ -1,3 +1,5 @@
+# CURRENTLY OBTAINING RIGHTS TO PUBLISH, WILL BE UP SOON
+
 # Regularized Sphere Decoding for Integer Least Squares Problems
 
 This software implements a depth-first search sphere decoding algorithm to solve regularized integer least squares (ILS)
