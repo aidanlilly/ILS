@@ -16,21 +16,21 @@ least squares problem. For a more detailed description and the derivations, see 
 - Efficient depth-first search using sphere decoding.
 - Support for both L0 and L1 norm regularizations.
 - Retrieve top \(p\) solutions, ranked by objective value.
-- Highly documented
+- Highly documented.
 
 ## Usage
 
 ### Inputs
 
-- R: n-by-n real nonsingular upper triangular matrix
-- y: n-dimensional real vector
-- lambda: positive scalar, the regularization parameter for the \ell_1 norm
-- p: the number of optimal solutions (default value: 1)
+- R: n-by-n real nonsingular upper triangular matrix.
+- y: n-dimensional real vector.
+- lambda: positive scalar, the regularization parameter for the \ell_1 norm.
+- p: the number of optimal solutions (default value: 1).
 
 #### For Box Constrained Problem:
 
-- l: n-dimensional integer vector, lower bound
-- u: n-dimensional integer vector, upper bound
+- l: n-dimensional integer vector, lower bound.
+- u: n-dimensional integer vector, upper bound.
 
 ### Output
 - Zhat: n-by-p integer matrix (in double precision), whose j-th column is the j-th optimal solution. Solutions are ordered such that the residual with the regularization term satisfies: ||y - R*Zhat(:,1)|| + lambda * ||Zhat(:,1)||_1 <= ||y - R*Zhat(:,p)|| + lambda * ||Zhat(:,p)||_1.
