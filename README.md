@@ -34,3 +34,7 @@ least squares problem. For a more detailed description and the derivations, see 
 
 ### Output
 - Zhat: n-by-p integer matrix (in double precision), whose j-th column is the j-th optimal solution. Solutions are ordered such that the residual with the regularization term satisfies: ||y - R*Zhat(:,1)|| + lambda * ||Zhat(:,1)||_1 <= ||y - R*Zhat(:,p)|| + lambda * ||Zhat(:,p)||_1.
+
+
+## References
+* X.-W. Chang. MILES: MATLAB package for solving mixed integer least squares problems, School of Computer Science, McGill University, http://www.cs.mcgill.ca/~chang/software/MILES.php. Last updated: December 2022
