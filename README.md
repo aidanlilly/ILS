@@ -1,4 +1,4 @@
-# CURRENTLY OBTAINING RIGHTS TO PUBLISH, WILL BE UP SOON
+# Undergoing refinement before being published. Will be uploaded here shortly.
 
 # Regularized Sphere Decoding for Integer Least Squares Problems
 
