@@ -39,4 +39,4 @@ least squares problem. For a more detailed description and the derivations, see 
 
 
 ## References
-* X.-W. Chang. MILES: MATLAB package for solving mixed integer least squares problems, School of Computer Science, McGill University, http://www.cs.mcgill.ca/~chang/software/MILES.php. Last updated: December 2022
+* X.-W. Chang. MILES: MATLAB package for solving mixed integer least squares problems, School of Computer Science, McGill University, http://www.cs.mcgill.ca/~chang/MILES.php. Last updated: December 2022
